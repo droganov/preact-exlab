@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "TARGET": "serverless"
+    }
+  },
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "name": "caa-rajo",
+  "version": 2
+}

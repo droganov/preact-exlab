@@ -1,0 +1,25 @@
+{
+  "name": "preact-exlab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development next",
+    "build": "next build",
+    "deploy": "now --target production",
+    "prestart": "npm run build",
+    "start": "next start -p 8000"
+  },
+  "dependencies": {
+    "next": "^9.0.1",
+    "preact": "10.0.0-rc.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack-merge": "^4.2.1"
+  },
+  "author": "",
+  "scope": "droganov",
+  "license": "ISC"
+}
